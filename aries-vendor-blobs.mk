@@ -17,10 +17,11 @@
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/xiaomi/aries/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-    vendor/xiaomi/aries/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/xiaomi/aries/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
+    vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+    vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/xiaomi/aries/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
+    vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/xiaomi/aries/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 
 # Back Cam
 PRODUCT_COPY_FILES += \
@@ -55,4 +56,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
     vendor/xiaomi/aries/proprietary/lib/libchromatix_imx132_zsl.so:system/lib/libchromatix_imx132_zsl.so
-
